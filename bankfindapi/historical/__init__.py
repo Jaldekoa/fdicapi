@@ -6,7 +6,7 @@ __all__ = ["get_summary"]
 
 def get_summary(**kwargs) -> pd.DataFrame:
     """
-    Get Historical Aggregate Data by Year
+    Get Historical Aggregate Data by Year.
 
     Keyword Args:
         filters (str): The filter criteria that refines the records returned. **None by default**.

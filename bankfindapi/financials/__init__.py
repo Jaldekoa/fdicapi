@@ -6,7 +6,7 @@ __all__ = ["get_financials"]
 
 def get_financials(**kwargs) -> pd.DataFrame:
     """
-    Get Financial Information for FDIC Insured Institutions
+    Get Financial Information for FDIC Insured Institutions.
 
     Keyword Args:
         filters (str): The filter criteria that refines the records returned. **None by default**.
