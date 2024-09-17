@@ -18,7 +18,7 @@ setup(
     long_description=LONG_DESCRIPTION,
     long_description_content_type='text/markdown',
     packages=["fdicapi", "fdicapi.demographics", "fdicapi.failures", "fdicapi.financials",
-              "fdicapi.historical","fdicapi.history", "fdicapi.structure", "fdicapi.summary_of_deposits"],
+              "fdicapi.historical","fdicapi.history", "fdicapi.structure", "fdicapi.sod"],
     test_suite='fdicapi.tests',
     platforms=["Any"],
     install_requires=["setuptools>=68.2", "pandas>=2.0.0", "requests>=2.23.0"],
