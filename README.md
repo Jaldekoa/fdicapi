@@ -1,4 +1,4 @@
-# bankfindapi
+# fdicapi
 
 This repository contains A Python wrapper to easily retrieve data from the BankFind Suite official API from FDIC in pandas format.
 
@@ -23,7 +23,7 @@ There are eight endpoints that the FDIC has exposed to the public:
 ## Installation
 ⚠️ Not available yet ⚠️
 ```terminal
-pip install bankfindapi
+pip install fdicapi
 ```
 
 ## Endpoints
@@ -31,7 +31,7 @@ pip install bankfindapi
 Get Financial Institutions.
 
 ```python
-from bankfindapi.structure import get_institutions
+from fdicapi.structure import get_institutions
 df = get_institutions(**kwargs)
 ```
 
@@ -53,7 +53,7 @@ df = get_institutions(**kwargs)
 Get Institution Locations.
 
 ```python
-from bankfindapi.structure import get_locations
+from fdicapi.structure import get_locations
 df = get_locations(**kwargs)
 ```
 
@@ -75,7 +75,7 @@ df = get_locations(**kwargs)
 Get Detail on Structure Change Events.
 
 ```python
-from bankfindapi.history import get_history
+from fdicapi.history import get_history
 df = get_history(**kwargs)
 ```
 
@@ -101,7 +101,7 @@ df = get_history(**kwargs)
 Get Financial Information for FDIC Insured Institutions
 
 ```python
-from bankfindapi.financials import get_financials
+from fdicapi.financials import get_financials
 df = get_financials(**kwargs)
 ```
 
@@ -127,7 +127,7 @@ df = get_financials(**kwargs)
 Get Historical Aggregate Data by Year.
 
 ```python
-from bankfindapi.historical import get_summary
+from fdicapi.historical import get_summary
 df = get_summary(**kwargs)
 ```
 
@@ -155,7 +155,7 @@ df = get_summary(**kwargs)
 Get detail on historical bank failures from 1934 to present.
 
 ```python
-from bankfindapi.failures import get_failures
+from fdicapi.failures import get_failures
 df = get_failures(**kwargs)
 ```
 
@@ -183,7 +183,7 @@ df = get_failures(**kwargs)
 Get Summary of Deposits Information for FDIC Insured Institutions.
 
 ```python
-from bankfindapi.sod import get_sod
+from fdicapi.sod import get_sod
 df = get_sod(**kwargs)
 ```
 
@@ -209,7 +209,7 @@ df = get_sod(**kwargs)
 Get Summary of Demographic Information.
 
 ```python
-from bankfindapi.demographics import get_demographics
+from fdicapi.demographics import get_demographics
 df = get_demographics(**kwargs)
 ```
 

@@ -1,4 +1,4 @@
-from bankfindapi.structure import get_institutions, get_locations
+from fdicapi.structure import get_institutions, get_locations
 import pandas as pd
 
 

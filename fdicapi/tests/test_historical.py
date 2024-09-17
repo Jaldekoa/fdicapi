@@ -1,4 +1,4 @@
-from bankfindapi.historical import get_summary
+from fdicapi.historical import get_summary
 import pandas as pd
 
 

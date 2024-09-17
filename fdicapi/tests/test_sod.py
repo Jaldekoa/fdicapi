@@ -1,4 +1,4 @@
-from bankfindapi.sod import get_sod
+from fdicapi.sod import get_sod
 import pandas as pd
 
 

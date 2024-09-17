@@ -1,4 +1,4 @@
-from bankfindapi.financials import get_financials
+from fdicapi.financials import get_financials
 import pandas as pd
 
 

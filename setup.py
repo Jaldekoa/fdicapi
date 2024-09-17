@@ -8,18 +8,18 @@ LONG_DESCRIPTION = (THIS_PATH / "README.md").read_text(encoding="utf-8")
 
 
 setup(
-    name="bankfindapi",
+    name="fdicapi",
     version=VERSION,
-    url="https://github.com/Jaldekoa/bankfindapi",
+    url="https://github.com/Jaldekoa/fdicapi",
     author="Jon Aldekoa",
     author_email="jaldekoa@gmail.com",
     license="MIT License",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     long_description_content_type='text/markdown',
-    packages=["bankfindapi", "bankfindapi.demographics", "bankfindapi.failures", "bankfindapi.financials",
-              "bankfindapi.historical","bankfindapi.history", "bankfindapi.structure", "bankfindapi.summary_of_deposits"],
-    test_suite='bankfindapi.tests',
+    packages=["fdicapi", "fdicapi.demographics", "fdicapi.failures", "fdicapi.financials",
+              "fdicapi.historical","fdicapi.history", "fdicapi.structure", "fdicapi.summary_of_deposits"],
+    test_suite='fdicapi.tests',
     platforms=["Any"],
     install_requires=["setuptools>=68.2", "pandas>=2.0.0", "requests>=2.23.0"],
     classifiers=[

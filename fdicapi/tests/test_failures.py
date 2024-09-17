@@ -1,4 +1,4 @@
-from bankfindapi.failures import get_failures
+from fdicapi.failures import get_failures
 import pandas as pd
 
 

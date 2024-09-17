@@ -1,4 +1,4 @@
-from bankfindapi.demographics import get_demographics
+from fdicapi.demographics import get_demographics
 import pandas as pd
 
 
