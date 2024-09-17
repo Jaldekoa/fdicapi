@@ -183,7 +183,7 @@ df = get_failures(**kwargs)
 Get Summary of Deposits Information for FDIC Insured Institutions.
 
 ```python
-from bankfindapi.summary_of_deposits import get_sod
+from bankfindapi.sod import get_sod
 df = get_sod(**kwargs)
 ```
 

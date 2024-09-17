@@ -1,7 +1,7 @@
 from urllib.parse import urlencode
 import pandas as pd
 
-__all__ = ["demographics", "failures", "financials", "historical", "history", "structure", "summary_of_deposits"]
+__all__ = ["demographics", "failures", "financials", "historical", "history", "structure", "sod"]
 valid_params = {
     "institutions": ["filters", "search", "fields", "sort_by", "sort_order", "limit", "offset"],
     "locations": ["filters", "fields", "sort_by", "sort_order", "limit", "offset"],

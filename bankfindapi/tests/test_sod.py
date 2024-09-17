@@ -1,4 +1,4 @@
-from bankfindapi.summary_of_deposits import get_sod
+from bankfindapi.sod import get_sod
 import pandas as pd
 
 
