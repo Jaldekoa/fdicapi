@@ -21,7 +21,6 @@ There are eight endpoints that the FDIC has exposed to the public:
 - Pandas
 
 ## Installation
-⚠️ Not available yet ⚠️
 ```terminal
 pip install fdicapi
 ```
