@@ -2,7 +2,7 @@ from urllib.parse import urlencode
 import pandas as pd
 
 __all__ = ["demographics", "failures", "financials", "historical", "history", "structure", "sod"]
-valid_params = {
+__valid_params = {
     "institutions": ["filters", "search", "fields", "sort_by", "sort_order", "limit", "offset"],
     "locations": ["filters", "fields", "sort_by", "sort_order", "limit", "offset"],
     "history": ["filters", "search", "fields", "sort_by", "sort_order", "limit", "offset", "agg_by", "agg_term_fields",
@@ -20,7 +20,7 @@ valid_params = {
 
 
 def __encode_params(endpoint: str, **kwargs) -> dict[str, str]:
-    params = {k: v for k, v in kwargs.items() if k in valid_params[endpoint]}
+    params = {k: v for k, v in kwargs.items() if k in __valid_params[endpoint]}
     params.update({"format": "csv", "download": "false"})
     return params
 
